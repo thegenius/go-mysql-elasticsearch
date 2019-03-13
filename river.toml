@@ -1,0 +1,21 @@
+my_addr = "127.0.0.1:3306"
+my_user = "root"
+my_pass = "123456"
+my_charset = "utf8"
+
+es_addr = "127.0.0.1:9200"
+es_user = ""
+es_pass = ""
+
+data_dir = "./var"
+stat_addr = "127.0.0.1:12800"
+server_id = 1001
+flavor = "mysql"
+mysqldump = "mysqldump"
+bulk_size = 128
+flush_bulk_time = "200ms"
+skip_no_pk_table = false
+
+[[source]]
+schema = "test"
+tables = ["test"]
